@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="images/facebook.png">
+
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>facebook</h1>
+                <p>Connect with friends and the world <br>
+                    around you on Facebook.
+            </p>
+        </div>
+    
+        <form action="index.html" onsubmit="return formValidate()" method="get">
+            <p id="error" class="error"></p>
+            <input type="text" id="emailId" placeholder="Enter Your email">
+            <input type="password" id="passwordId" placeholder="Password">
+            <input type="submit" value="LogIn">
+            <a href="#">Forget Password ?</a>
+            <hr>
+            <!-- <button id="formBtn">Create New Account</button> -->
+        </form>
+    </div>
+
+
+
+    <script src="login.js"></script>
+</body>
+</html>
